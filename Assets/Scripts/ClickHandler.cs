@@ -38,12 +38,6 @@ public class ClickHandler : MonoBehaviour {
 
         rBody.velocity = new Vector2(5, 0);
     }
-
-    void Update()
-    {
-
-    }
-    
     // Executes when a mouse down event occurs on an object with this script.
     void OnMouseDown()
     {

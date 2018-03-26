@@ -28,6 +28,7 @@ public class LookDecision : Decision {
         if(hit && hit.collider.CompareTag("Player"))
         {
             // Set my chase target to the player
+            controller.chaseTarget = hit.transform;
             return true;
         }
         else

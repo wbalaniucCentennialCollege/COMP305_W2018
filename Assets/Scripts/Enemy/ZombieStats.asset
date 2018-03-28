@@ -11,9 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e5203598da31de429ed583738a240bb, type: 3}
   m_Name: ZombieStats
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 10
   lookRange: 10
-  patrolSpeed: 0.5
+  patrolSpeed: 1
   chaseSpeed: 2
   attackRange: 0.1
   attackRate: 1

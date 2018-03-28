@@ -23,6 +23,8 @@ public class EnemyHealth : MonoBehaviour {
 
     public EnemyHealthData enemyHealthData;
     public EnemyScoreData enemyScoreData;
+
+    private AudioSource audioSource;
     /*
     public float maxHealth;
     public float currentHealth;
@@ -38,11 +40,13 @@ public class EnemyHealth : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        audioSource = GetComponent<AudioSource>();
         enemyHealthData.currentHealth = enemyHealthData.maxHealth;
 	}
 	
 	public void Damage(float damageAmt)
     {
+        audioSource.Play();
         enemyHealthData.currentHealth -= damageAmt;
         // currentHealth = currentHealh - damageAmt;
         UpdateHealth();

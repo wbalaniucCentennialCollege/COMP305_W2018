@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a4a87a60128c743b6f2f6597be10c4, type: 3}
+  m_Name: PlayerStats
+  m_EditorClassIdentifier: 
+  walkSpeed: 5
+  jumpForce: 325
+  groundCheckOffset: 0.1
+  defineGround:
+    serializedVersion: 2
+    m_Bits: 512
+  groundCheckGizmoColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  jump: {fileID: 0}
+  walk: {fileID: 0}
+  death: {fileID: 0}
+  swordSwing:
+  - {fileID: 8300000, guid: 8e3dedf803f71ab408a9a1d1305b0960, type: 3}
+  attackCheckRadius: 0.4
+  defineAttack:
+    serializedVersion: 2
+    m_Bits: 1024
+  attackCheck: {fileID: 0}
+  attackDamage: 5
+  attackGizmoColour: {r: 1, g: 0, b: 0, a: 1}

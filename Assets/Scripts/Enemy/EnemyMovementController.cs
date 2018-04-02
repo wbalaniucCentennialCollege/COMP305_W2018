@@ -18,7 +18,7 @@ public class EnemyMovementController : MonoBehaviour {
 	void Update () {
         Vector2 velocity = lastPosition - transform.position;
 
-        Debug.Log(velocity.x);
+        // Debug.Log(velocity.x);
 
         if(velocity.x > 0 && isRight)
         {

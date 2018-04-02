@@ -1262,7 +1262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 996203570}
   - component: {fileID: 996203569}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1421,7 +1421,7 @@ GameObject:
   - component: {fileID: 1087020530}
   - component: {fileID: 1087020529}
   - component: {fileID: 1087020528}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4032,6 +4032,22 @@ Prefab:
       propertyPath: attackSound.swordSwing3
       value: 
       objectReference: {fileID: 8300000, guid: 43a599a8679d0324399d54851f92cc8e, type: 3}
+    - target: {fileID: 114671581060685896, guid: d7dd02004ef92284b9d5959d3644f29c,
+        type: 2}
+      propertyPath: stats
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f12c94519da3c14e90a0b95f0656594,
+        type: 2}
+    - target: {fileID: 114915634833826152, guid: d7dd02004ef92284b9d5959d3644f29c,
+        type: 2}
+      propertyPath: stats
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f12c94519da3c14e90a0b95f0656594,
+        type: 2}
+    - target: {fileID: 1338301832265570, guid: d7dd02004ef92284b9d5959d3644f29c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d7dd02004ef92284b9d5959d3644f29c, type: 2}
   m_IsPrefabParent: 0
